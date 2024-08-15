@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "simpleproj"
+version = "0.1.0"
+description = ""
+authors = ["Musl1mNet <a.boburbek12@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = {extras = ["all"], version = "^0.112.0"}
+uvicorn = {extras = ["standard"], version = "^0.30.5"}
+passlib = {extras = ["bcrypt"], version = "^1.7.4"}
+sqlalchemy = "^2.0.32"
+elasticsearch = "^8.14.0"
+pydantic-settings = "^2.4.0"
+python-dotenv = "^1.0.1"
+slowapi = "^0.1.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
